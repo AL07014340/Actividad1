@@ -32,7 +32,7 @@ header {
 }
 
 .menu-icono {
-    width: 200px;
+    width: 150px;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -128,6 +128,8 @@ footer {
 
 .container {
     padding: 15px;
+    width: 90%;
+    max-width: 1200px;
 }
 #Proyectos .proyecto {
     padding:15px;
