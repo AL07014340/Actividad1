@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", serif;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.1)),
+        url(azul.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-icono {
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.header-content h1 {
+    font-size: 50px;
+    line-height: 50px;
+    color:black;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    text-align:center;
+    margin-right: 630px;
+}
+
+.header-content h2 {
+    font-size: 30px;
+    color:black ;
+    margin-top: 20px;
+    line-height: 40px;
+    text-align:center;
+    margin-right: 630px;
+}
+
+.header-content p {
+    font-size: 15px;
+    color: white;
+    padding: 0 0px;
+    margin-top: 15px;
+    text-align: center;
+    margin-right: 630px;
+}
+
+#Proyectos {
+    font-size: 15px;
+    text-align: center;
+    padding: 0 270px;
+    background-color:aliceblue;
+
+}
+
+#Proyectos h2 {
+    font-size: 40px;
+    color: black;
+}
+
+#Proyectos p {
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+#Proyectos h3 {
+    font-size: 30px;
+    padding: 0 80px;
+}
+
+.Proyect-content img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+#contacto {
+    background-color:lightseagreen;
+    text-align: center;
+
+}
+
+#contacto h2 {
+    font-size: 30px;
+    text-align: center;
+    color:black;
+    margin-bottom: 30px;
+}
+
+#contacto label {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#contacto textarea {
+    width: 250px;
+}
+
+#contacto input {
+    width: 250px;
+}
+
+footer {
+    background-color: lightseagreen;
+    color: black;
+}
+
+.container {
+    padding: 15px;
+}
+#Proyectos .proyecto {
+    padding:15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
