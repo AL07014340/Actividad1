@@ -126,6 +126,7 @@ header {
 footer {
     background-color: lightseagreen;
     color: black;
+    text-align: center;
 }
 
 .container {
